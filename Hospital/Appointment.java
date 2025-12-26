@@ -23,10 +23,8 @@ public class Appointment {
                 System.out.println("Patients name : " + " " + visits[i].patient );
                 System.out.println("Doctors name : " + " " + visits[i].doctor );
                 System.out.println("Time of appointment : " + " " + visits[i].hour);
-
-
             }
         }
-
     }
 }
+

@@ -17,11 +17,16 @@ public class FootballPlayer {
         return name;
     }
 
-    public String getposition() { return position; }
+    public String getposition() { 
+        return position; 
+    }
 
     public int getage() {
         return age;
     }
 
-    public int getgoals() { return goals; }
+    public int getgoals() { 
+        return goals; 
+    }
 }
+

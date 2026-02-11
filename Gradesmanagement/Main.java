@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int n = 0;
+        int n = 0 ;
         while (true) {
             n = input.nextInt();
             if (n < 0) {
@@ -24,9 +24,9 @@ public class Main {
             }
         while (true) {
             System.out.println("Choose an option from the menu below");
-            System.out.println("1.Calculate the avarge ");
+            System.out.println("1.Calculate the average ");
             System.out.println("2.Find maximum and minimum score");
-            System.out.println("3.Count passed and failed student");
+            System.out.println("3.Count passed and failed students");
             System.out.println("4.Show grades above average");
             System.out.println("5.Exit");
             int choice = input.nextInt();
@@ -37,7 +37,7 @@ public class Main {
             if (choice == 1) {
                 list[0].average(list);
             } else if (choice == 2) {
-                list[0].maximin(list);
+                list[0].maxmin(list);
             } else if (choice == 3) {
                 list[0].passedfailed(list);
             } else if (choice == 4) {
@@ -48,5 +48,7 @@ public class Main {
         }
     }
 }
+
+
 
 

@@ -11,7 +11,7 @@ public class Main {
             System.out.println("2. Search book");
             System.out.println("3. Borrow book");
             System.out.println("4. Return book");
-            System.out.println("5.Show all books");
+            System.out.println("5. Show all books");
             System.out.println("6. Show borrowed books");
             System.out.println("7. Exit");
             int choice = input.nextInt();

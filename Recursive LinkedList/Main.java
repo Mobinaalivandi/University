@@ -34,7 +34,7 @@ public class Main {
                 head = head.next;
             }
         } else {
-            System.out.println("Value does not exist");
+            System.out.println("Value doesn't exist");
         }
     }
 }
